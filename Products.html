@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Urban Parakeets Product Page</title>
+  <meta charset="utf-8">
+</head>
+
+<body onload="loadpage()">
+
+  <!-- container to center page -->
+  <div class=" content-center">
+
+    <!-- 	Navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <img class="logo-img-nav" src="images/par.png" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="imageGallery.html">Gallery</a>
+          <a class="nav-link" href="subscribe.html">Subscribe</a>
+          <a class='nav-link saved-spot' aria-current='page' href='userSavePage.html'>Saved-Content</a>
+        </div>
+      </div>
+
+    </nav>
+
+    <!-- products -->
+    <!-- product image section used 12 products not 10 -->
+    <div class="row row-layout">
+      <div class="col-md-3 row-gap">
+        <img class="product-img" src="images/image1.jpg" alt="">
+        <h4 class="pricing">R299</h4>
+        <h5 class="product-dis">Tropical Parrot Food</h5>
+
+        <button id="Pbtn-save-1" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+        <button id="Pbtn-1" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+      </div>
+      <div class="col-md-3 row-gap">
+
+        <img class="product-img" src="images/image2.jpg" alt="">
+        <h4 class="pricing">R299</h4>
+        <h5 class="product-dis">Marltons Parrot Food</h5>
+
+
+        <button id="Pbtn-save-2" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+        <button id="Pbtn-2" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+      </div>
+      <div class="col-md-3 row-gap">
+
+        <img class="product-img" src="images/image3.jpg" alt="">
+        <h4 class="pricing">R299</h4>
+        <h5 class="product-dis">Prestige Parrot Food</h5>
+
+
+        <button id="Pbtn-save-3" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+        <button id="Pbtn-3" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+      </div>
+      <div class="col-md-3 row-gap">
+
+        <img class="product-img" src="images/image4.jpg" alt="">
+        <h4 class="pricing">R299</h4>
+        <h5 class="product-dis">Prestige Parakeet Food</h5>
+
+
+        <button id="Pbtn-save-4" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+        <button id="Pbtn-4" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+      </div>
+
+      <div class="row row-layout">
+        <div class="col-md-3">
+
+          <img class="product-img" src="images/image5.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Twirl Rope Perch</h5>
+
+
+          <button id="Pbtn-save-5" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-5" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image6.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Rope Perch</h5>
+
+
+          <button id="Pbtn-save-6" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-6" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image7.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Bird Rope Toy</h5>
+
+
+          <button id="Pbtn-save-7" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-7" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image8.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Food & Water Bowl</h5>
+
+
+          <button id="Pbtn-save-8" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-8" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+      </div>
+
+      <div class="row row-layout">
+        <div class="col-md-3">
+
+          <img class="product-img" src="images/image9.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Black Medium Cage</h5>
+
+
+          <button id="Pbtn-save-9" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-9" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image10.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Small Round Cage</h5>
+
+
+          <button id="Pbtn-save-10" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-10" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image11.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">White Dome Cage</h5>
+
+
+          <button id="Pbtn-save-11" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-11" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+        <div class="col-md-3 row-gap">
+
+          <img class="product-img" src="images/image12.jpg" alt="">
+          <h4 class="pricing">R299</h4>
+          <h5 class="product-dis">Large Square Cage</h5>
+
+
+          <button id="Pbtn-save-12" type="button" class="btn btn-secondary btn-sm save-product-btn">Save</button>
+          <button id="Pbtn-12" type="button" class="btn btn-secondary btn-sm like-product-btn">Like</button>
+
+        </div>
+      </div>
+      <!-- comment section -->
+
+      <form class="comment-section-conatainer">
+        <H3>Leave a Comment</H3>
+
+
+        <textarea name="comment" id="comment" cols="45" rows="8" required></textarea>
+        <p class="form-submit">
+          <input name="submit" type="submit" id="submit" class="btn btn-secondary" value="Post Comment">
+        </p>
+      </form>
+      <div class="display-comments">
+
+      </div>
+
+      <!-- 	footer section	 -->
+      <footer class="footer-1">
+        <img class="logo-img-footer" src="images/par.png" alt="logo">
+
+      </footer>
+
+
+      <script src="./script/productJavascript.js"></script>
+    </div>
+</body>
+
+</html>
